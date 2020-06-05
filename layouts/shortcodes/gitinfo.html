@@ -1,4 +1,4 @@
 {{ with $.Page.GitInfo }}
 <hr>
-<b>Last Commit Info</b>: {{ .Subject }} by {{ .AuthorName }} ({{ .AbbreviatedHash }})
+<b>Last Commit Info</b>: "{{ .Subject }}" by {{ .AuthorName }} ({{ .AbbreviatedHash }})
 {{ end }}
